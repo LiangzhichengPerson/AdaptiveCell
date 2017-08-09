@@ -19,6 +19,12 @@
 		2E86EFE5187F8678003F868D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E86EFCD187F8678003F868D /* UIKit.framework */; };
 		2E86EFED187F8678003F868D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E86EFEB187F8678003F868D /* InfoPlist.strings */; };
 		2E86EFEF187F8678003F868D /* AdaptiveCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86EFEE187F8678003F868D /* AdaptiveCellTests.m */; };
+		2E86EFFA187F86B3003F868D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86EFF9187F86B3003F868D /* TableViewController.m */; };
+		2E86EFFD187F8875003F868D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86EFFC187F8875003F868D /* UserModel.m */; };
+		2E86EFFF187F92BC003F868D /* panghu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E86EFFE187F92BC003F868D /* panghu.jpg */; };
+		2E86F002187F9302003F868D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86F001187F9302003F868D /* TableViewCell.m */; };
+		2E86F005187F9EE4003F868D /* daxiong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E86F003187F9EE4003F868D /* daxiong.jpg */; };
+		2E86F006187F9EE4003F868D /* duolaameng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E86F004187F9EE4003F868D /* duolaameng.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		2E86EFEA187F8678003F868D /* AdaptiveCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdaptiveCellTests-Info.plist"; sourceTree = "<group>"; };
 		2E86EFEC187F8678003F868D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E86EFEE187F8678003F868D /* AdaptiveCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveCellTests.m; sourceTree = "<group>"; };
+		2E86EFF8187F86B3003F868D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2E86EFF9187F86B3003F868D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2E86EFFB187F8875003F868D /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2E86EFFC187F8875003F868D /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2E86EFFE187F92BC003F868D /* panghu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panghu.jpg; sourceTree = "<group>"; };
+		2E86F000187F9302003F868D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2E86F001187F9302003F868D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2E86F003187F9EE4003F868D /* daxiong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daxiong.jpg; sourceTree = "<group>"; };
+		2E86F004187F9EE4003F868D /* duolaameng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duolaameng.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,12 @@
 				2E86EFD9187F8678003F868D /* AppDelegate.m */,
 				2E86EFDB187F8678003F868D /* Images.xcassets */,
 				2E86EFD0187F8678003F868D /* Supporting Files */,
+				2E86EFF8187F86B3003F868D /* TableViewController.h */,
+				2E86EFF9187F86B3003F868D /* TableViewController.m */,
+				2E86EFFB187F8875003F868D /* UserModel.h */,
+				2E86EFFC187F8875003F868D /* UserModel.m */,
+				2E86F000187F9302003F868D /* TableViewCell.h */,
+				2E86F001187F9302003F868D /* TableViewCell.m */,
 			);
 			path = AdaptiveCell;
 			sourceTree = "<group>";
@@ -118,6 +139,9 @@
 		2E86EFD0187F8678003F868D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E86F003187F9EE4003F868D /* daxiong.jpg */,
+				2E86F004187F9EE4003F868D /* duolaameng.jpg */,
+				2E86EFFE187F92BC003F868D /* panghu.jpg */,
 				2E86EFD1187F8678003F868D /* AdaptiveCell-Info.plist */,
 				2E86EFD2187F8678003F868D /* InfoPlist.strings */,
 				2E86EFD5187F8678003F868D /* main.m */,
@@ -219,8 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E86F005187F9EE4003F868D /* daxiong.jpg in Resources */,
+				2E86EFFF187F92BC003F868D /* panghu.jpg in Resources */,
 				2E86EFD4187F8678003F868D /* InfoPlist.strings in Resources */,
 				2E86EFDC187F8678003F868D /* Images.xcassets in Resources */,
+				2E86F006187F9EE4003F868D /* duolaameng.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E86EFDA187F8678003F868D /* AppDelegate.m in Sources */,
+				2E86EFFA187F86B3003F868D /* TableViewController.m in Sources */,
+				2E86EFFD187F8875003F868D /* UserModel.m in Sources */,
+				2E86F002187F9302003F868D /* TableViewCell.m in Sources */,
 				2E86EFD6187F8678003F868D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
